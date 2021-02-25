@@ -8,7 +8,7 @@ class Library(object):
         self.signTime = signTime
         self.rate = rate
         self.totScore = totScore
-        self.selectionScore = totScore * rate * (1 - signTime / totDay)
+        
     
     def __repr__(self):
         return '[id:{}-len:{}-{}]'.format(self.index, self.count, self.books)
